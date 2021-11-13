@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin: 0 auto 2em}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./SCSS/style.css">
+  <script src="https://kit.fontawesome.com/7e361ee024.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="load-icon-container" arial-hidden="true">
+    <img src="./images/favicon-32x32.png" alt="favicon">
+    <p>Waiting...</p>
+  </div>
+  <div class="violet-oval-bg" arial-hidden="true"></div>
+  <main>
+    <div class="phone-container" arial-hidden="true">
+      <div class="phone-rectangle-oval"></div>
+      <div class="phone-screen">
+        <div class="avatar-container">
+          <div class="avatar">
+            <i class="fas fa-chevron-left avatar-arrow-icon"></i>
+            <img src="./images/avatar.jpg" alt="avatar profile pic">
+            <div class="avatar-text">
+              <p class = 'avatar-name'>Samuel Green</p>
+              <p>Available to Walk</p>
+            </div>
+          </div>
+          <div class="avatar-hamburger-container">
+            <a href=""><span class = 'avatar-hamburger'></span></a>
+          </div>
+        </div>
+    
+        <div class="chat-container">
+          <p class = 'chat-msg-left chat-msg chat-animate-1'>That sounds great. I’d be happy with that.</p>
+          <p class = 'chat-msg-left chat-msg chat-animate-1'>Could you send over some pictures of your dog, please?</p>
+          <div class="chat-picture-container">
+            <img src="./images/dog-image-1.jpg" alt="dog 1" class = ' chat-animate-2a'>
+            <img src="./images/dog-image-2.jpg" alt="dog 2" class = ' chat-animate-2a'>
+            <img src="./images/dog-image-3.jpg" alt="dog 3" class = ' chat-animate-2a'>
+          </div>
+          <p class="chat-msg-right chat-msg chat-animate-2b">Here are a few pictures. She’s a happy girl!</p>
+          <p class="chat-msg-right chat-msg chat-animate-2b">Can you make it?</p>
+          <p class="chat-msg-left chat-msg chat-animate-2b">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+          <div class="colored-chat-msg chat-animate-3">
+            <i class="far fa-circle"></i>
+            <p>30 minute walk</p>
+            <p class="colored-dollar">$29</p>
+          </div>
+          <div class="colored-chat-msg chat-animate-3">
+            <i class="far fa-circle"></i>
+            <p>1 hour walk</p>
+            <p class="colored-dollar">$49</p>
+          </div>
+          <div class="type-message-container">
+            <p class="type-message-placeholder">Type a message…</p>
+            <i class="fas fa-chevron-circle-right type-message-arrow-icon" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="simple-booking-container">
+      <h1>Simple booking</h1>
+      <p>
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.
+      </p>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mac</a>.
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+  <script src = './main.js'></script>
+</body>
+</html>
